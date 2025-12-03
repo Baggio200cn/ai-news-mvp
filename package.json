@@ -1,0 +1,13 @@
+{
+  "name": "ai-news-platform",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "@vercel/kv": "^1.0.1"
+  }
+}
